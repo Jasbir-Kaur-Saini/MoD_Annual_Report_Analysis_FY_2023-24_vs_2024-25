@@ -1,23 +1,34 @@
 MoD Annual Report Analysis: FY 2023-24 vs 2024-25 Dashboard
+
 A Power BI Report that breaks down India's Ministry of Defence Annual Report into an interactive, year-over-year comaprison - covering budget allocation, defence production, exports, gallantry awards, HADR operations, and welfare schemes.
 
 Short Description /  Purpose
+
 The MoD Annual Report Analysis Dashboard is an interactive Power BI report built to help users explore and compare Ministry of Defence performance across FY 2023-24 and FY 2024-25. It consolidates data spread across a lengthy government annual report into a single, filterable view. This tool is intented for policy analysts, defence researchers, and anyone who wants a faster way to track year-on-year change in India's defence sector than reading a 200+ page PDF.
 
 Tech Stack
+
 The dashboard was built using the following tools and technologies:
+
 📊 Power BI Desktop - Main data visualization platform used for report creation.
+
 📂 Power Query - Data cleaning and transformation for reshaping the annual report data.
+
 🧠 DAX (Data Analysis Expression) - Used for calculating measures, and creating a metric slicer.
+
 📝 Data Modeling - Established relationships across multiple tables to enable cross-filtering and aggregation.
+
 📂 File Format - .pbix for development and .png for dashboard previews.
 
 Data Source
+
 Source: Ministry of Defence (Government of India) Annual Report, FY 2023-24 and FY 20224-25 editions.
 https://mod.gov.in/en/annual-report
 
 Features / Highlights
+
 Business Problem:
+
 The MoD Annual Report is a dense, text-heavy government publication, making it difficult to quickly answer questions like:
 1) Which service recieved the largest budget increase between FY24 and FY25?
 2) Is the private sector's share of defence production growing?
